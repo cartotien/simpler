@@ -1,0 +1,9 @@
+# Logfile created on 2022-10-28 20:05:54 +0300 by logger.rb/v1.5.0
+I, [2022-10-28T20:05:56.942264 #11244]  INFO -- : Request: GET /tests/2
+I, [2022-10-28T20:05:56.942337 #11244]  INFO -- : Handler: TestsController # show
+I, [2022-10-28T20:05:56.942359 #11244]  INFO -- : Parameters: {:id=>"2"}
+I, [2022-10-28T20:05:56.942374 #11244]  INFO -- : 200 [text/html] tests/show.html.erb
+I, [2022-10-28T20:06:01.673228 #11244]  INFO -- : Request: GET /tests/plain
+I, [2022-10-28T20:06:01.673294 #11244]  INFO -- : Handler: TestsController # plain
+I, [2022-10-28T20:06:01.673309 #11244]  INFO -- : Parameters: {}
+I, [2022-10-28T20:06:01.673322 #11244]  INFO -- : 201 [text/html] RENDER_METHOD: plain_text
